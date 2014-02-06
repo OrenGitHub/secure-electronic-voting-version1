@@ -42,6 +42,10 @@ class MainPage(webapp2.RequestHandler):
         """ ************* """
         template = JINJA_ENVIRONMENT.get_template('MainPage.html')
         self.response.write(template.render())
+        
+        """ """
+        """ """
+        """ """
         """ """
                                             
 

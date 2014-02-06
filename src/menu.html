@@ -1,0 +1,16 @@
+<html lang="he">
+<head>
+<title> {{web_page_title}} </title>
+</head>
+<body>
+<table border="1">
+
+    {% for choice in menu_choices %}
+    
+		<tr><td><a href="{{choice[0]}}"> {{choice[1]}}</a></td></tr>
+        
+    {% endfor %}
+
+</table>
+</body>
+</html>
